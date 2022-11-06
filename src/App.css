@@ -9,7 +9,7 @@ body {
   margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
-  --type-second: 'Spectral', Georgia;
+  --type-second: 'Spectral', georgia;
   font-family: var(--type-first);
 }
 
@@ -68,8 +68,8 @@ a {
 .title::after {
   content: '';
   display: block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
   background: #fb1;
   position: absolute;
   bottom: 5px;
