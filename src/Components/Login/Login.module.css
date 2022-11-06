@@ -10,3 +10,18 @@
   background: url('../../Assets/login.jpg') no-repeat center center;
   background-size: cover;
 }
+.forms {
+  max-width: 30rem;
+  padding: 1.2rem;
+}
+@media(max-width: 30rem) {
+  .login {
+    grid-template-columns: 1fr;
+  }
+  .login::before {
+    display: none;
+  }
+  .forms {
+    max-width: 100%;
+  }
+}
