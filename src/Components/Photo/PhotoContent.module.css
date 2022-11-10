@@ -17,13 +17,23 @@
     transform: initial;
   }
 }
+.single.photo {
+  grid-template-columns: 1fr;
+  height: auto;
+}
 .details {
   padding: 2rem 2rem 0 2rem;
 }
+.single .details {
+padding: 1rem 0px 0px 0px;
+}
 .img {
   grid-row: 1/4;
-}.commentes {
-  padding: 0 2rem;
+}
+.single .img {
+  grid-row: 1;
+  border-radius: .4rem;
+  overflow: hidden;
 }
 @media (max-width: 64rem) {
   .photo {
