@@ -66,7 +66,7 @@ const UserPhotoPost = () => {
         {img.preview && (
           <div
             className={styles.preview}
-            style={{ backgroundImage: `url('${img.preview})` }}
+            style={{ backgroundImage: `url('${img.preview}')` }}
           ></div>
         )}
       </div>
